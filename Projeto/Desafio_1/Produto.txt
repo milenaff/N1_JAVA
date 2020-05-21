@@ -1,0 +1,8 @@
+1|Pizza de mussarela|35.0
+2|bolo|123.0
+3|teste|12345.0
+4|produtineo|1234.0
+5|thread|345.0
+6|lalala|45.0
+7|produtossss|123.0
+8|pastel de queijo|6.7

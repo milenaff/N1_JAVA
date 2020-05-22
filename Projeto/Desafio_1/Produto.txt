@@ -8,3 +8,5 @@
 8|pastel de queijo|6.7
 9|teste novo reposit�rio|34.0
 10|produto testesssss|234.0
+11|teddy|20.5
+12|pizza|12.0

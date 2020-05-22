@@ -20,22 +20,29 @@ import java.util.logging.Logger;
  */
 public class ThreadGestaoMensagensAuditoria extends Thread {
 
-    boolean Status = true;
+    //boolean Status = true;
+    boolean Status;
     @Override
-    public void run() {                
+    public void run() {
+        SetStatus(true);
         try {
             while (Status) {
                 if (!GerenciadorAuditoriaSingleton.getInstancia().FilaMensagens.isEmpty()) {
-                    Mensagem_Seguranca(GerenciadorAuditoriaSingleton.getInstancia().FilaMensagens.element());
+                   Mensagem_Seguranca(GerenciadorAuditoriaSingleton.getInstancia().FilaMensagens.element());
                     GerenciadorAuditoriaSingleton.getInstancia().Retira_Msg_Auditoria();                    
                 }
             }
-            Thread.sleep(10000000);
+            Thread.sleep(1000);
 
         } catch (Exception ex) {
             Logger.getLogger(ThreadGestaoMensagensAuditoria.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+    }
+    
+    public void SetStatus (boolean value)
+    {
+        Status=true;
     }
 
     public void Mensagem_Seguranca(String cadastro) throws Exception {

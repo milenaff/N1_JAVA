@@ -6,3 +6,5 @@
 6|lalala|45.0
 7|produtossss|123.0
 8|pastel de queijo|6.7
+9|teste novo reposit�rio|34.0
+10|produto testesssss|234.0

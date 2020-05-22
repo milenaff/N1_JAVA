@@ -13,3 +13,10 @@
 13|Um Cliente foi cadastrado com sucesso no sistema no dia 2020/05/17 12:55:53
 14|Um Produto foi cadastrado com sucesso no sistema no dia 2020/05/17 14:16:45
 15|Um Cliente foi cadastrado com sucesso no sistema no dia 17/05/2020 14:19:59
+16|Um Produto foi cadastrado com sucesso no sistema no dia 21/05/2020 18:37:57
+17|Um Funcionario foi cadastrado com sucesso no sistema no dia 21/05/2020 18:38:40
+18|Um Cliente foi cadastrado com sucesso no sistema no dia 22/05/2020 18:04:36
+19|Um Produto foi cadastrado com sucesso no sistema no dia 22/05/2020 18:06:37
+20|Um Cliente foi cadastrado com sucesso no sistema no dia 22/05/2020 18:10:48
+21|Um Cliente foi cadastrado com sucesso no sistema no dia 22/05/2020 18:15:07
+22|Um Pedido foi cadastrado com sucesso no sistema no dia 22/05/2020 18:16:53

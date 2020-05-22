@@ -33,10 +33,7 @@ public class Desafio_1 {
 
         
         while (!saida) {
-            saida = estadoconsole.Executa();
-            GerenciadorAuditoriaSingleton.getInstancia().Run();
-
-                
+            saida = estadoconsole.Executa();                
         }
         
         GerenciadorAuditoriaSingleton.getInstancia().Desativa();
